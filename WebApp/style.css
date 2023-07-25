@@ -1,0 +1,55 @@
+
+body {
+    /* The gradient transitions smoothly from green to golden by including intermediary colors. */
+    background: linear-gradient(to right, #689f38, #9cbc40, #cde24f, #cde24f);
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#salesChart {
+    background-color: rgba(255, 255, 255, 0.6); /* semi-transparent white */
+}
+
+
+.carousel-item img {
+    max-height: 350px; /* Set your desired height */
+    object-fit: cover;
+}
+.carousel-caption-bg {
+background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+padding: 10px;
+border-radius: 5px;
+}
+
+/* style.css */
+
+/* Team section */
+.team-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.team-section h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-section ul li {
+    margin-bottom: 10px;
+}
+
+.team-section ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.team-section ul li a:hover {
+    color: #007bff;
+}
